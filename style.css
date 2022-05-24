@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;       
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+}
+
+.destaque{
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.caixa{
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    height: 800px;
+    width: 600px;
+    border-radius: 14px;
+    font-size: 17px;
+    
+}
+
+img{
+    width: 600px ;
+    height: 300px;
+    border-radius: 14px 14px 0px 0px;
+}
+
+
+.music{
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.valores{
+    display: grid;
+    grid-template-columns: 60px 80px 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+    border-radius: 10px;
+    width: 450px;
+    height: 80px;
+    background-color:  hsl(225, 100%, 98%);
+}
+
+
+
+.coluna3{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(224, 23%, 55%);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 14px;
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 3px rgba(0 ,0 ,0 , 0.2);
+    
+    
+    
+}
+
+
+
+.button a{
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+}
+
+.button :hover{
+    transform: scale(1.3);
+}
+
+.cancela{
+    
+    margin-top: 50px;
+}
+
+
+.cancela a{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.cancela :hover{
+    transform: scale(1.3);
+}
+
+
+
+
+
