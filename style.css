@@ -114,7 +114,53 @@ img{
     transform: scale(1.3);
 }
 
+@media screen and (max-width: 372px) {
+    body{
+        
+        
+        max-width: 372px;
+        margin: 0 auto;
+       
+    }
 
+    .caixa{
+        max-width: 372px;
+        
+
+    }
+
+    p{
+        
+       padding: -5px;
+        
+    }
+
+    img{
+        border-radius: 0px;
+    }
+
+    .destaque{
+        margin-top: 7px;
+    }
+
+    .coluna3{
+        margin-left: 60px;
+    }
+
+    .valores{
+        max-width: 372px;
+        height: 80px;
+    }
+
+    .caixa img{
+        max-width: 372px;
+    }
+
+    .button{
+        max-width: 372px;
+    }
+
+}
 
 
 
