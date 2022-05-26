@@ -168,14 +168,14 @@ img{
         body{
             
             
-            max-width: 375px;
+            max-width: 372px;
            
            
         }
     
     }
         .caixa{
-            max-width: 372px;
+            max-width: 376px;
             
     
         }
@@ -188,7 +188,7 @@ img{
     
         img{
             
-            border-radius: 0px;
+            border-radius: 14px 14px 4px 4px;
         }
     
         .destaque{
